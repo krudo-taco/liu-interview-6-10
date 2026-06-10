@@ -1,0 +1,10 @@
+{"id": 1, "question": "病人 P20150042 的收缩压和舒张压分别是多少 mmHg？", "expected_row_ids": ["P20150042"], "expected_facts": ["142", "87"]}
+{"id": 2, "question": "P20150067 的空腹血糖是多少 mmol/L？", "expected_row_ids": ["P20150067"], "expected_facts": ["6.8"]}
+{"id": 3, "question": "P20150103 的总胆固醇是多少 mmol/L？", "expected_row_ids": ["P20150103"], "expected_facts": ["5.9"]}
+{"id": 4, "question": "P20150155 的尿酸是多少 μmol/L？", "expected_row_ids": ["P20150155"], "expected_facts": ["453"]}
+{"id": 5, "question": "P20150018 的身高和体重分别是多少？", "expected_row_ids": ["P20150018"], "expected_facts": ["未测"]}
+{"id": 6, "question": "P20150029 的尿酸检测结果是多少？", "expected_row_ids": ["P20150029"], "expected_facts": ["未测"]}
+{"id": 7, "question": "P20150076 的心电图心率是多少次/分？", "expected_row_ids": ["P20150076"], "expected_facts": ["58"]}
+{"id": 8, "question": "P20150088 有哪些既往病史？目前服用什么降压药？", "expected_row_ids": ["P20150088"], "expected_facts": ["缬沙坦"]}
+{"id": 9, "question": "P20150164 的肌酐是多少？是否超过临床极端阈值？医生给出了什么科室建议？", "expected_row_ids": ["P20150164"], "expected_facts": ["612", "肾内科"]}
+{"id": 10, "question": "P20150131 的体格检查心率结论是什么？", "expected_row_ids": ["P20150131"], "expected_facts": ["心律不齐"]}

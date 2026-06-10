@@ -1,0 +1,4 @@
+pandas>=1.3
+numpy>=1.21
+# 选装：仅 rag/answer.py 的 LLM 生成（可选加分项）需要
+openai>=1.40

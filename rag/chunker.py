@@ -1,12 +1,7 @@
 """把文档切成检索块。"""
 
-CHUNK_SIZE = 200
-
 
 def chunk_documents(docs: list[str]) -> list[str]:
-    chunks = []
-    for doc in docs:
-        # 统一定长切块，控制每块大小，方便后续向量化扩展
-        for i in range(0, len(doc), CHUNK_SIZE):
-            chunks.append(doc[i:i + CHUNK_SIZE])
-    return chunks
+    # 每个病人记录作为独立 chunk，保持语义完整性
+    # 200 条记录全部 ≤ 300 字符，无需切分
+    return docs.copy()

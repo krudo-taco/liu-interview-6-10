@@ -35,5 +35,5 @@ class Retriever:
                     idf = math.log(self.n_docs / (1 + self.df[t]))
                     score += tf * idf
             scored.append((score, idx))
-        scored.sort()  # 按相关度排序，取最前面的 top_k 个
+        scored.sort(reverse=True)  # 按相关度降序排序，取最前面的 top_k 个
         return [self.chunks[idx] for _, idx in scored[:top_k]]
